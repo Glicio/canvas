@@ -1,0 +1,24 @@
+body {
+	background-color: #000;
+}
+
+.controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.glassmorphism-bg {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+	padding: 10px;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
